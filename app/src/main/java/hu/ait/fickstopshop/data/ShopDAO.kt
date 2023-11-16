@@ -10,10 +10,10 @@ import kotlinx.coroutines.flow.Flow
 
 @Dao
 interface ShopDAO {
-    @Query("SELECT * from shoptable")
+    @Query("SELECT * from shoptable ORDER BY isbought ASC, id DESC")
     fun getAllItems(): Flow<List<ShopItem>>
 
-    @Query("SELECT * from shoptable where category = :category")
+    @Query("SELECT * from shoptable where category = :category ORDER BY isbought ASC, id DESC")
     fun getItemsByCat(category: String): Flow<List<ShopItem>>
 
     @Query("SELECT * from shoptable WHERE id = :id")
