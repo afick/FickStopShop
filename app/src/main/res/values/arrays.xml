@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dataclasscategories">
+        <item>Produce</item>
+        <item>Meat</item>
+        <item>Dairy</item>
+        <item>Bakery</item>
+        <item>Pantry</item>
+        <item>Frozen</item>
+        <item>Health</item>
+        <item>Home</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="tabs">
+        <item>All</item>
+        <item>Produce</item>
+        <item>Meat</item>
+        <item>Dairy</item>
+        <item>Bakery</item>
+        <item>Pantry</item>
+        <item>Frozen</item>
+        <item>Health</item>
+        <item>Home</item>
+    </string-array>
+    <string-array name="orderlist">
+        <item>Category</item>
+        <item>Price</item>
+        <item>Qty</item>
+    </string-array>
+</resources>

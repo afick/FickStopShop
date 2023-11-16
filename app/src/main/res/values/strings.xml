@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">FickStopShop</string>
+    <string name="AppNameSplash">Fick Stop Shop</string>
+    <string name="shop_database_db">shop_database.db</string>
+    <string name="your_list_text">Your List</string>
+    <string name="add_text">Add</string>
+    <string name="all_text">All</string>
+    <string name="bought_text">Bought</string>
+    <string name="summary_text">Summary</string>
+    <string name="produce_text">Produce</string>
+    <string name="add_your_first_item">Add your first item!</string>
+    <string name="category_text">Category</string>
+    <string name="price_format_text">$%.2f</string>
+    <string name="delete_text">Delete</string>
+    <string name="edit_text">Edit</string>
+    <string name="collapse_text">Collapse</string>
+    <string name="expand_text">Expand</string>
+    <string name="empty_str" />
+    <string name="please_only_input_numbers_error">Please only input numbers</string>
+    <string name="item_title_text">Item Title</string>
+    <string name="item_price_text">$%1$s</string>
+    <string name="item_price_title">Item Price</string>
+    <string name="error">Error</string>
+    <string name="item_description_text">Item Description</string>
+    <string name="please_fill_out_all_fields">Please fill out all fields</string>
+    <string name="save_text">Save</string>
+    <string name="splash_text">Splash</string>
+    <string name="price_text">Price</string>
+    <string name="all_items_text">All Items</string>
+    <string name="qty_header">QTY:</string>
+    <string name="qty_text">%1$s</string>
+    <string name="total_price_header">Total Price:</string>
+</resources>
