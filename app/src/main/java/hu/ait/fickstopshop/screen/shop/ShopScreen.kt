@@ -384,10 +384,6 @@ private fun AddNewItemForm(
             mutableStateOf(context.getString(R.string.empty_str))
         }
 
-        var itemErrorText by rememberSaveable {
-            mutableStateOf(context.getString(R.string.empty_str))
-        }
-
         var itemBought by rememberSaveable {
             mutableStateOf(itemEdit?.isBought ?: false)
         }
@@ -523,7 +519,7 @@ private fun AddNewItemForm(
                 )
             )
 
-            SpinnerSample(
+            SpinnerSample (
                 stringArrayResource(R.array.dataclasscategories).toList(),
                 preselected = itemCategory,
                 onSelectionChanged = { itemCategory = it },
@@ -532,7 +528,7 @@ private fun AddNewItemForm(
                     .padding(top = 10.dp)
             )
 
-            Row(
+            Row (
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(top = 10.dp),
@@ -541,14 +537,7 @@ private fun AddNewItemForm(
                 Checkbox(checked = itemBought, onCheckedChange = { itemBought = it })
                 Text(text = stringResource(id = R.string.bought_text))
             }
-            if (itemErrorText.isNotEmpty()) {
-                Text(
-                    text = itemErrorText,
-                    color = MaterialTheme.colorScheme.error,
-                    modifier = Modifier.padding(4.dp)
-                )
-            }
-            Row(
+            Row (
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.SpaceEvenly
             ) {

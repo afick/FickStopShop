@@ -7,6 +7,7 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 import hu.ait.fickstopshop.R
 import androidx.compose.ui.res.stringResource
+import java.io.Serializable
 
 @Entity(tableName = "shoptable")
 data class ShopItem(
@@ -16,7 +17,7 @@ data class ShopItem(
     @ColumnInfo(name = "description") var description: String,
     @ColumnInfo(name = "price") var price: Double,
     @ColumnInfo(name = "isbought") var isBought: Boolean
-)
+) : Serializable
 
 data class CategoryQtyPrice(
     var category: String,
